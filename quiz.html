@@ -10,20 +10,44 @@
 </head>
 <body>
 
+  <section class="menu-bar">
+    <p class="correct-score score" id="correct-score">0</p>
+    <p class="time" id="time"></p>
+    <p class="incorrect-score score" id="incorrect-score">0</p>
+  </section>
+  
   <section class="quiz-wrapper">    
     <div class="img-wrapper">
       <img alt="Face" class="face" id="face" draggable="false">
     </div>
-    
+  
     <!-- <p class="student"><a href="index.html">Link</a></p> -->
     <div class="button-wrapper">
-      <button id="a">Bryan Sukidi</button>
-      <button id="b">Bryan Sukidi</button>
-      <button id="c">Bryan Sukidi</button>
-      <button id="d">Bryan Sukidi</button>
+      <button id="a">Name 1</button>
+      <button id="b">Name 2</button>
+      <button id="c">Name 3</button>
+      <button id="d">Name 4</button>
     </div>
   </section>
 
+  <div class="hidden score-card-shown" id="score-card">
+    <p class="score-title">Score</p>
+    
+    <div class="score-container">
+      <div class="correct-container">
+        <p class="correct-score score" id="num-correct">0</p>
+        <ul class="correct-student-list" id="correct-student-list">
+
+        </ul>
+      </div>
+      <div class="incorrect-container">
+        <p class="incorrect-score score" id="num-incorrect">0</p>
+        <ul class="incorrect-student-list" id="incorrect-student-list">
+
+        </ul>
+      </div>
+    </div>
+  </div>
   
 </body>
 </html>
