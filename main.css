@@ -63,6 +63,26 @@ button.start:hover {
   transform: scale(1.2);
 }
 
+.subtitle {
+  text-align: center;
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1rem;
+
+  background-image: linear-gradient(120deg, #88b6ff 0%, #c5e8f8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
 .menu-bar {
   height: 10vh;
   background: #232526;
@@ -73,7 +93,7 @@ button.start:hover {
 }
 
 .time {
-  width: 30vw;
+  width: 60vw;
   text-align: center;
   font-weight: 600;
 }
