@@ -73,7 +73,7 @@ button.start:hover {
 
 .footer-text {
   position: absolute;
-  bottom: 10px;
+  bottom: 0.5vh;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
