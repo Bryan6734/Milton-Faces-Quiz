@@ -12,17 +12,21 @@
   /* border: 1px white dotted; */
 }
 
+html {
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2d2f30, #0f0f10);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2d2f30, #0f0f10); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 header {
   width: 100vw;
   height: 100vh;
+  /* height: -webkit-fill-available; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3vh;
-  background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #2d2f30, #0f0f10);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #2d2f30, #0f0f10); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 

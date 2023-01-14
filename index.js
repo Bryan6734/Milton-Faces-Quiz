@@ -1,10 +1,19 @@
 
+window.onload = function() {
+  viewportUnitsBuggyfill.init({
+    force: true,
+    refreshDebounceWait: 250
+  });
+};
+
+
 var startButton = document.getElementById("start");
 var buttonA = document.getElementById("a");
 var buttonB = document.getElementById("b");
 var buttonC = document.getElementById("c");
 var buttonD = document.getElementById("d");
 var image = document.getElementById("face");
+
 
 
 const startGame = () => {
